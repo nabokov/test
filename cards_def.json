@@ -1,6 +1,6 @@
 [
     {
-        "match_url": "http://[Ii]nstagram\\.com/p/",
+        "match_url_regex": "http://[Ii]nstagram\\.com/p/",
         "type" : "photo",
         "title_regex" : "<meta property=\"og:title\" content=\"(.*?)\" />",
         "url_regex" : "<meta property=\"og:url\" content=\"(.*?)\" />",
@@ -9,7 +9,7 @@
         "image_width" : "610"
     },
     {
-        "match_url": "http://news\\.kron4\\.com/(\\?p=|news/)",
+        "match_url_regex": "http://news\\.kron4\\.com/(\\?p=|news/)",
         "type" : "summary",
         "title_regex" :"<meta property=\"og:title\" content=\"(.*?)\" />",
         "description_regex" : "<div id=\"content\">.*?</h2>.*?(?:<p.*?</p>.*?){3}(.*?)<!-- /div.post -->",
