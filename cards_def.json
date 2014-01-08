@@ -17,6 +17,6 @@
         "image_regex" : "<meta property=\"og:image\" content=\"(.*?)\" />",
         "image_width_regex" : "<meta property=\"og:image:width\" content=\"(.*?)\" />",
         "image_height_regex" : "<meta property=\"og:image:height\" content=\"(.*?)\" />"
-    },
+    }
 ]
 
