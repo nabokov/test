@@ -19,4 +19,3 @@
         "image_height_regex" : "<meta property=\"og:image:height\" content=\"(.*?)\" />"
     }
 ]
-
