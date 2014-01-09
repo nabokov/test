@@ -9,7 +9,7 @@
         "image_width" : "610"
     },
     {
-        "match_url_regex": "http://twitter\\.yfrog\\.com/",
+        "match_url_regex": "http://yfrog\\.com/",
         "type" : "photo",
         "title_regex" : "<meta name=\"twitter:title\" value=\"(.*?)\" />",
         "url_regex" : "<meta name=\"twitter:url\" value=\"(.*?)\" />",
