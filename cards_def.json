@@ -2,6 +2,7 @@
     {
         "match_url_regex": "http://[Ii]nstagram\\.com/p/",
         "type" : "photo",
+        "site_user" : ["name":"instagram", "id":"180505807", "profile_image":"https://pbs.twimg.com/profile_images/1550954462/instagramIcon_normal.png"],
         "title_regex" : "<meta property=\"og:title\" content=\"(.*?)\"\\s*/>",
         "url_regex" : "<meta property=\"og:url\" content=\"(.*?)\"\\s*/>",
         "image_regex" : "<meta property=\"og:image\" content=\"(.*?)\"\\s*/>",
@@ -11,6 +12,7 @@
     {
         "match_url_regex": "http://yfrog\\.com/",
         "type" : "photo",
+        "site_user" : ["name":"yfrog", "id":"1950046938", "profile_image":"https://pbs.twimg.com/profile_images/378800000637847341/299e88e7d75b6d73caaa1be8ba2fecdb_normal.jpeg"],
         "title_regex" : "<meta name=\"twitter:title\" value=\"(.*?)\"\\s*/>",
         "url_regex" : "<meta name=\"twitter:url\" value=\"(.*?)\"\\s*/>",
         "image_regex" : "<meta name=\"twitter:image\" value=\"(.*?)\"\\s*/>",
@@ -21,6 +23,7 @@
     {
         "match_url_regex": "http://news\\.kron4\\.com/(\\?p=|news/)",
         "type" : "summary",
+        "site_user" : ["name":"sfgate", "id":"36511031", "profile_image":"https://pbs.twimg.com/profile_images/317253774/sfgate_logo_bigger_normal.jpg"],
         "title_regex" :"<meta property=\"og:title\" content=\"(.*?)\"\\s*/>",
         "description_regex" : "<div id=\"content\">.*?</h2>.*?(?:<p.*?</p>.*?){3}(.*?)<!-- /div.post -->",
         "url_regex" : "<meta property=\"og:url\" content=\"(.*?)\"\\s*/>",
@@ -31,6 +34,7 @@
     {
         "match_url_regex": "http://(?:(?:news|blog)\\.sfgate\\.com|sfg\\.ly)/",
         "type" : "summary",
+        "site_user" : ["name":"kron4news", "id":"19031057", "profile_image":"https://pbs.twimg.com/profile_images/378800000639069470/6d4b41afcb0ad5e5d5fd04dc68787a4d_normal.jpeg"],
         "title_regex" :"<meta property=\"og:title\" content=\"(.*?)\"\\s*/>",
         "description_regex" : "<meta property=\"og:description\" content=\"(.*?)\"\\s*/>",
         "url_regex" : "<meta property=\"og:url\" content=\"(.*?)\"\\s*/>",
@@ -41,6 +45,7 @@
     {
         "match_url_regex": "http://bbc\\.in/",
         "type" : "summary",
+        "site_user" : ["name":"bbcnews", "id":"612473", "profile_image":"https://pbs.twimg.com/profile_images/2186831845/128x128_twitter_bbc_uk_normal.jpg"],
         "title_regex" :"<meta property=\"og:title\" content=\"(.*?)\"\\s*/>",
         "description_regex" : "<meta name=\"[Dd]escription\" content=\"(.*?)\"",
         "url_regex" : "<meta property=\"og:url\" content=\"(.*?)\"\\s*/>",
@@ -52,6 +57,7 @@
     {
         "match_url_regex": "https?://(((m|www)\\.)youtube\\.com/watch|youtu\\.be)",
         "type" : "photo",
+        "site_user" : ["name":"youtube", "id":"10228272", "profile_image":"https://pbs.twimg.com/profile_images/414219711803432960/VfrkHfhF_normal.png"],
         "title" : "NO YOUTUBE !!",
         "image" : "http://livedoor.blogimg.jp/nabokov7/imgs/f/7/f70ee630.jpg",
         "image_height" : "225",
