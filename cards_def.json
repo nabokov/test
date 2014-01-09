@@ -22,6 +22,8 @@
         "site_user_name":"yfrog", "site_user_id":"1950046938", "site_profile_image":"https://pbs.twimg.com/profile_images/378800000637847341/299e88e7d75b6d73caaa1be8ba2fecdb_normal.jpeg"
     },
 
+
+
     {
         "match_url_regex": "http://news\\.kron4\\.com/(\\?p=|news/)",
         "type" : "summary",
@@ -63,9 +65,14 @@
         "type" : "summary",
         "title_regex" :"<title>(.*?)</title>",
         "description_regex" : "<h4.*?<p>(.*?)</p>",
+        "image" : "https://pbs.twimg.com/profile_images/1901371743/BART_128.png",
+        "image_width" : "128",
+        "image_height" : "128",
 
         "site_user_name":"sfbart", "site_user_id":"15640533", "site_profile_image":"https://pbs.twimg.com/profile_images/1901371743/BART_128_normal.png"
     },
+
+
 
     {
         "match_url_regex": "https?://(((m|www)\\.)youtube\\.com|youtu\\.be)",
