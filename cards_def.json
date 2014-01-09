@@ -28,6 +28,16 @@
         "image_height_regex" : "<meta property=\"og:image:height\" content=\"(.*?)\"\\s*/>"
     },
     {
+        "match_url_regex": "http://(?:news|blog)\\.sfgate\\.com/",
+        "type" : "summary",
+        "title_regex" :"<meta property=\"og:title\" content=\"(.*?)\"\\s*/>",
+        "description_regex" : "<meta property=\"og:description\" content=\"(.*?)\"\\s*/>",
+        "url_regex" : "<meta property=\"og:url\" content=\"(.*?)\"\\s*/>",
+        "image_regex" : "<div id=\"blogarticle\".*?<img[^>]*?src=\"([^\"]+\\.jpg)\"",
+        "image_width_regex" : "<div id=\"blogarticle\".*?<img[^>]*?src=\"[^\"]+\\.jpg\".*?width=\"([0-9]+)\"",
+        "image_height_regex" : "<div id=\"blogarticle\".*?<img[^>]*?src=\"[^\"]+\\.jpg\".*?height=\"([0-9]+)\""
+    },
+    {
         "match_url_regex": "http://bbc\\.in/",
         "type" : "summary",
         "title_regex" :"<meta property=\"og:title\" content=\"(.*?)\"\\s*/>",
