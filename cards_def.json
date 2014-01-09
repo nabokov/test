@@ -75,10 +75,13 @@
         "match_url_regex": "https?://m\\.bart\\.gov/news/",
         "type" : "summary",
         "title_regex" :"<title>(.*?)</title>",
-        "description_regex" : "<h4.*?<p>(.*?)</p>",
-        "image" : "https://pbs.twimg.com/profile_images/1901371743/BART_128.png",
-        "image_width" : "128",
-        "image_height" : "128",
+        "description_regex" : "<h4.*?<div.*?>(.*?)</div>",
+        "image_regex" : "<h4.*?<div.*?>.*?<img [^>]*src=\"([^\"]*)\".*?</div>",
+        "image_width_regex" : "<h4.*?<div.*?>.*?<img [^>]*width=\"([^\"]*)\".*?</div>",
+        "image_height_regex" : "<h4.*?<div.*?>.*?<img [^>]*height=\"([^\"]*)\".*?</div>",
+        "no_image" : "https://pbs.twimg.com/profile_images/1901371743/BART_128.png",
+        "no_image_width" : "128",
+        "no_image_height" : "128",
 
         "site_user_name":"sfbart", "site_user_id":"15640533", "site_profile_image":"https://pbs.twimg.com/profile_images/1901371743/BART_128_normal.png"
     },
