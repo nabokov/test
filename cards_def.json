@@ -50,11 +50,11 @@
     },
 
     {
-        "match_url_regex": "http://www\.youtube\.com/",
+        "match_url_regex": "http://www\\.youtube\\.com/",
         "type" : "photo",
-        "title_regex" : "NO YOUTUBE",
+        "title" : "NO YOUTUBE",
         "url" : "http://yahoo.com/",
-        "image_regex" : "http://4.bp.blogspot.com/-caBZn4d7vmo/ToRcxOdp_xI/AAAAAAAAC3U/qG_psQ0kzaA/s1600/YouTube_logo_no.jpg",
+        "image" : "http://4.bp.blogspot.com/-caBZn4d7vmo/ToRcxOdp_xI/AAAAAAAAC3U/qG_psQ0kzaA/s1600/YouTube_logo_no.jpg",
         "image_height" : "442",
         "image_width" : "427"
     }
