@@ -72,7 +72,7 @@
         "site_user_name":"bbcnews", "site_user_id":"612473", "site_profile_image":"https://pbs.twimg.com/profile_images/2186831845/128x128_twitter_bbc_uk_normal.jpg"
     },
     {
-        "match_url_regex": "https?://m\\.bart\\.gov/news/",
+        "match_url_regex": "https?://((www|m)\\.)?bart\\.gov/news/",
         "type" : "summary",
         "title_regex" :"<title>(.*?)</title>",
         "description_regex" : "<h4.*?<div.*?>(.*?)</div>",
