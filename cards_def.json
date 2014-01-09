@@ -17,6 +17,7 @@
         "image_height" : "100",
         "image_width" : "100"
     },
+
     {
         "match_url_regex": "http://news\\.kron4\\.com/(\\?p=|news/)",
         "type" : "summary",
@@ -46,5 +47,15 @@
         "image_regex" : "<h1.*?<img src=\"([^\"]+\\.jpg)\"",
         "image_width_regex" : "<h1.*?<img src=\"[^\"]+\\.jpg\".*?width=\"([0-9]+)\"",
         "image_height_regex" : "<h1.*?<img src=\"[^\"]+\\.jpg\".*?height=\"([0-9]+)\""
+    },
+
+    {
+        "match_url_regex": "http://www\.youtube\.com/",
+        "type" : "photo",
+        "title_regex" : "NO YOUTUBE",
+        "url" : "http://yahoo.com/",
+        "image_regex" : "http://4.bp.blogspot.com/-caBZn4d7vmo/ToRcxOdp_xI/AAAAAAAAC3U/qG_psQ0kzaA/s1600/YouTube_logo_no.jpg",
+        "image_height" : "442",
+        "image_width" : "427"
     }
 ]
