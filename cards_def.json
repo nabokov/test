@@ -2,29 +2,39 @@
     {
         "match_url_regex": "http://[Ii]nstagram\\.com/p/",
         "type" : "photo",
-        "title_regex" : "<meta property=\"og:title\" content=\"(.*?)\" />",
-        "url_regex" : "<meta property=\"og:url\" content=\"(.*?)\" />",
-        "image_regex" : "<meta property=\"og:image\" content=\"(.*?)\" />",
+        "title_regex" : "<meta property=\"og:title\" content=\"(.*?)\"\s*/>",
+        "url_regex" : "<meta property=\"og:url\" content=\"(.*?)\"\s*/>",
+        "image_regex" : "<meta property=\"og:image\" content=\"(.*?)\"\s*/>",
         "image_height" : "610",
         "image_width" : "610"
     },
     {
         "match_url_regex": "http://yfrog\\.com/",
         "type" : "photo",
-        "title_regex" : "<meta name=\"twitter:title\" value=\"(.*?)\" />",
-        "url_regex" : "<meta name=\"twitter:url\" value=\"(.*?)\" />",
-        "image_regex" : "<meta name=\"twitter:image\" value=\"(.*?)\" />",
+        "title_regex" : "<meta name=\"twitter:title\" value=\"(.*?)\"\s*/>",
+        "url_regex" : "<meta name=\"twitter:url\" value=\"(.*?)\"\s*/>",
+        "image_regex" : "<meta name=\"twitter:image\" value=\"(.*?)\"\s*/>",
         "image_height" : "100",
         "image_width" : "100"
     },
     {
         "match_url_regex": "http://news\\.kron4\\.com/(\\?p=|news/)",
         "type" : "summary",
-        "title_regex" :"<meta property=\"og:title\" content=\"(.*?)\" />",
+        "title_regex" :"<meta property=\"og:title\" content=\"(.*?)\"\s*/>",
         "description_regex" : "<div id=\"content\">.*?</h2>.*?(?:<p.*?</p>.*?){3}(.*?)<!-- /div.post -->",
-        "url_regex" : "<meta property=\"og:url\" content=\"(.*?)\" />",
-        "image_regex" : "<meta property=\"og:image\" content=\"(.*?)\" />",
-        "image_width_regex" : "<meta property=\"og:image:width\" content=\"(.*?)\" />",
-        "image_height_regex" : "<meta property=\"og:image:height\" content=\"(.*?)\" />"
+        "url_regex" : "<meta property=\"og:url\" content=\"(.*?)\"\s*/>",
+        "image_regex" : "<meta property=\"og:image\" content=\"(.*?)\"\s*/>",
+        "image_width_regex" : "<meta property=\"og:image:width\" content=\"(.*?)\"\s*/>",
+        "image_height_regex" : "<meta property=\"og:image:height\" content=\"(.*?)\"\s*/>"
+    },
+    {
+        "match_url_regex": "http://bbc\\.in/",
+        "type" : "summary",
+        "title_regex" :"<meta property=\"og:title\" content=\"(.*?)\"\s*/>",
+        "description_regex" : "<meta name=\"[Dd]escription\" content=\"(.*?)\"",
+        "url_regex" : "<meta property=\"og:url\" content=\"(.*?)\"\s*/>",
+        "image_regex" : "<h1.*?<img src=\"([^\"]+\\.jpg)\"",
+        "image_width_regex" : "<h1.*?<img src=\"[^\"]+\\.jpg\".*?width=\"([0-9]+)\"",
+        "image_height_regex" : "<h1.*?<img src=\"[^\"]+\\.jpg\".*?height=\"([0-9]+)\"",
     }
 ]
