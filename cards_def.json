@@ -21,6 +21,17 @@
 
         "site_user_name":"yfrog", "site_user_id":"1950046938", "site_profile_image":"https://pbs.twimg.com/profile_images/378800000637847341/299e88e7d75b6d73caaa1be8ba2fecdb_normal.jpeg"
     },
+    {
+        "match_url_regex": "http://(www\\.)?pinterest\\.com/pin/",
+        "type" : "photo",
+        "title_regex" : "<meta property=\"og:title\".*?content=\"(.*?)\"\\s*/>",
+        "url_regex" : "<meta property=\"og:url\".*?content=\"(.*?)\"\\s*/>",
+        "image_regex" : "<img src=\"(.*?)\"\\s+class=\"pinImage\"",
+        "image_height_regex" : "<img src=\".*?\"\\s+class=\"pinImage\".*?height:([0-9]+)px",
+        "image_width_regex" : "<img src=\".*?\"\\s+class=\"pinImage\".*?width:([0-9]+)px",
+
+        "site_user_name":"pinterest", "site_user_id":"106837463", "site_profile_image":"https://pbs.twimg.com/profile_images/2725838700/32f4e2dce13c0b983003eaa10efea6a5_normal.png"
+    },
 
 
 
