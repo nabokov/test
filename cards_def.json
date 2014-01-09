@@ -28,7 +28,7 @@
         "image_height_regex" : "<meta property=\"og:image:height\" content=\"(.*?)\"\\s*/>"
     },
     {
-        "match_url_regex": "http://(?:news|blog)\\.sfgate\\.com/",
+        "match_url_regex": "http://(?:(?:news|blog)\\.sfgate\\.com|sfg\\.ly)/",
         "type" : "summary",
         "title_regex" :"<meta property=\"og:title\" content=\"(.*?)\"\\s*/>",
         "description_regex" : "<meta property=\"og:description\" content=\"(.*?)\"\\s*/>",
