@@ -50,7 +50,7 @@
     },
 
     {
-        "match_url_regex": "http://www\\.youtube\\.com/",
+        "match_url_regex": "https?://((m|www)\\.)youtube\\.com/watch",
         "type" : "photo",
         "title" : "NO YOUTUBE",
         "url" : "http://yahoo.com/",
