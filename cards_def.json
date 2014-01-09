@@ -52,9 +52,9 @@
     {
         "match_url_regex": "https?://(((m|www)\\.)youtube\\.com/watch|youtu\\.be)",
         "type" : "photo",
-        "title" : "NO YOUTUBE",
-        "image" : "http://4.bp.blogspot.com/-caBZn4d7vmo/ToRcxOdp_xI/AAAAAAAAC3U/qG_psQ0kzaA/s1600/YouTube_logo_no.jpg",
-        "image_height" : "442",
-        "image_width" : "427"
+        "title" : "NO YOUTUBE !!",
+        "image" : "http://livedoor.blogimg.jp/nabokov7/imgs/f/7/f70ee630.jpg",
+        "image_height" : "225",
+        "image_width" : "225"
     }
 ]
